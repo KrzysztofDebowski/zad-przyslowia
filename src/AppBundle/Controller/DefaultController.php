@@ -560,5 +560,12 @@ public function biedneyAction()
 {
     return $this->render('default/biedny.html.twig');
 }
+/**
+ * @Route("/zebro.html", name="zebro")
+ */
+public function zebroAction()
+{
+    return $this->render('default/zebro.html.twig');
+}
 
 }
