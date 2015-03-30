@@ -684,6 +684,14 @@ public function zydaAction()
     return $this->render('default/zyda.html.twig');
 }
 
+ /**
+    * @Route("/zebro.html", name="zebro")
+    */
+    public function zebroAction()
+    {
+        return $this->render('default/zebro.html.twig');
+    }
+
 /**
  * @Route("/Aksamity.html", name="Aksamity")
  */
